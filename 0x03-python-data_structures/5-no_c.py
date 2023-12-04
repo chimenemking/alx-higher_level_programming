@@ -5,4 +5,4 @@ def no_c(my_string):
     for v in range(len(my_string)):
         if my_string[v] != 'c' and my_string[v] != 'C':
             newer_strng += my_string[v]
-    return new_string
+    return newer_strng

@@ -1,7 +1,8 @@
 def print_matrix_integer(matrix=[[]]):
-    for idx1 in range(len(matrix)):
-        for idx2 in range(len(matrix[idx1])):
-            if idx2 != 0:
+    for i in range(len(matrix)):
+        for j in range(len(matrix[i])):
+            print("{:d}".format(matrix[i][j]), end="")
+            if j != (len(matrix[i]) - 1):
                 print(" ", end="")
-            print("{:d}".format(matrix[idx1][idx2]), end="")
-        print()
+
+        print("")

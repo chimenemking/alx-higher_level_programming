@@ -19,4 +19,4 @@ def add_tuple(tuple_a=(), tuple_b=()):
     else:
         y2 = 0
 
-    return a1 + b1, a2 + b2
+    return x1 + y1, x2 + y2
